@@ -1,2 +1,11 @@
+<<<<<<< HEAD
 # cuda-rust-course
-Course to cuda programming with rust.
+Cuda Course with Rust programming Basic.
+Run this to create ptx file of the cuda kernel.
+```
+nvcc -ptx kernel.cu -o kernel.ptx -arch=sm_75
+```
+```
+cargo run
+```
+>>>>>>> 057a1c1 (Example of cuda with rust)

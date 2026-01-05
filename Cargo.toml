@@ -1,0 +1,8 @@
+[package]
+name = "cuda-rust-course"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cust = "0.3"
+cuda-sys = "0.2"
